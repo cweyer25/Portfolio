@@ -1,0 +1,59 @@
+
+#splash h1 {
+    font-family: montserrat;
+    font-size: 34px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: #212020;
+    margin-bottom: 14px;
+}
+
+#splash h3 {
+    font-family: montserrat;
+    margin-top: 0;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#splash {
+    background: #FFE32C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 100%;
+}
+
+#splash .container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+@media (max-width: 960px) {
+    #splash .container {
+        width: 600px;
+    }
+}
+
+@media (max-width: 600px) {
+    #splash .container {
+        width: 320px;
+    }
+}
+
+@keyframes fade-out {
+    from {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+
+    to {
+        opacity: 0;
+        transform: translate3d(0, -100%, 0);
+    }
+}
