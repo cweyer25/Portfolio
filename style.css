@@ -21,6 +21,10 @@ body {
 
 }
 
+a{
+    color: #212121;
+}
+
 p{
     font-family: aktiv-grotesk, sans-serif;
 font-style: normal;
