@@ -58,10 +58,8 @@
 
             The video below documents the building of this project. </p>
     </div>
-    <div class="project-media-center">
-        <video controls>
-        <source src="videos/zephyrus.mp4" type="video/mp4">
-        </video>
+    <div class="project-media-center video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/zHJqHUbJ1KU" frameborder="0" allowfullscreen></iframe>
     </div>
 
 <h3> MORE LIKE THIS </h3>
@@ -87,5 +85,12 @@
 
 <div class="yellowline"></div>
 </div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fitvids/1.1.0/jquery.fitvids.min.js"></script>
+<script>
+    $('.video-container').fitVids();
+</script>
 </body>
 </html>
